@@ -22,5 +22,5 @@ spec:
         - containerPort: 80
         env:
         - name: foo
-          value: "pub"
+          value: "bar"
 
