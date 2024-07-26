@@ -1,0 +1,10 @@
+version: '3'
+services:
+  alpine:
+    image: ubuntu
+    entrypoint: ["/bin/sh","-c"]
+    command: ["sleep 15"]
+    restart: on-failure
+    environment:
+     - ${SOMETHING:-old}=hoopla
+     - atest=show
