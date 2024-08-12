@@ -6,5 +6,5 @@ services:
     tty: true
     environment:
      - ${SOMETHING:-old}=hoopla
-     - atest=show
+     - atest=noshow
 
